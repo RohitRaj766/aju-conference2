@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 export default function Navbar() {
-
-
-  
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top"    >
@@ -60,7 +56,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link " to="/contact" >
-                  Contact Us
+                  Contact
                 </Link>
               </li>
 

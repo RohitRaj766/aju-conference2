@@ -6,10 +6,16 @@
 // NAVBAR_STARS_HERE
 
 .navbar {
-  background-color: rgb(243, 241, 241);
+  background-color: #ececec;
 }
 
 .navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
   .navbar_logo_A {
     font-size: 1.5rem;
     font-weight: 500;
@@ -23,28 +29,26 @@
   .navbar_logo_jain {
     font-weight: 500;
     color: red;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
 .navbar {
-  box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 14px 8px -3px rgba(0,0,0,.25);
 }
 
 #navbar_menu {
   width: 80%;
   justify-content: center;
-  padding-left: 2%;
+  padding-left: 5.5%;
   li {
     margin-left: 3rem;
     a {
-      color: rgba(182, 100, 7, 0.993);
+      color: #B66407FD;
       font-weight: 470;
     }
     a:hover {
-      color: #ff6325;
-      text-decoration: underline;
-      text-decoration-style: dotted;
+      color: #f7a535;
     }
   }
   // .active{
@@ -55,12 +59,18 @@
 
 #fas_icons {
   width: 14rem;
+  text-align: center;
+  width: 15%;
+  a{
+    color: black;
+    margin-left: 15px;  
+  }
   .fab {
     font-size: 1.5rem;
     padding-left: 1.67rem;
     color: black;
   }
-  .fab:hover {
+  a:hover {
     color: orange;
   }
 }
@@ -70,9 +80,9 @@
 // BANNER_IMAGE_START
 
 .banner_image {
-  box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  // box-shadow: -1px 14px 22px -3px rgba(0,0,0,.1);
   margin-top: 3.9rem;
+  width: 100%;
 }
 
 // BANNER_IMAGE_ENDS
@@ -104,7 +114,7 @@
 
 .mainpersons {
   background-color: rgb(248, 247, 247);
-  box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+  // box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
   .mainpersonbox {
     padding-top: 2rem;
     .col-lg-4 {
@@ -264,8 +274,21 @@
 
 @media screen and (max-width: 1033px) {
   #fas_icons {
-    display: none;
+    text-align: center;
+    width: 100%;
+    a{
+      margin-left:0 ;
+      margin-right: 22px;
+    }
   }
+  #navbar_menu {
+    width: 85%;
+    li {
+      // margin-left: 5rem;
+      text-align: center;
+    }
+  }
+
   .amitsir {
     padding-top: 2rem;
   }
@@ -276,11 +299,22 @@
 }
 
 @media screen and (max-width:500px) {
-  .banner_image {
-    display: none;
+  // .banner_image {
+  //   display: none;
+  // }
+  .lead{
+    font-size: 1rem;
+  }
+  #fas_icons {
+    text-align: center;
+    width: 100%;
+    a{
+      margin-left:15px ;
+      margin-right: 0px;
+    }
   }
   #aboutbox {
-margin-top: 5rem;
+margin-top: 1rem;
 #aboutajuheading {
   text-align: left;
 }

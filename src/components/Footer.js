@@ -7,7 +7,7 @@ export default function footer() {
         <div className="credit1 ">
           {" "}
           <span>
-            © 2022 Arka <span className="rohit_color">Jain</span> University,{" "}
+            © 2024 Arka <span className="rohit_color">Jain</span> University,{" "}
             <span>All</span> Rights Reserved!
           </span>
         </div>
