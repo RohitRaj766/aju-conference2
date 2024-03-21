@@ -60,7 +60,7 @@ and length of the presentations. With its high quality, it provides an exception
 students, academics and industry researchers.
           </p>
           <div className=" brochure">
-         <a href="https://drive.google.com/file/d/1dvk20GoYWPzdtHrVwtM7hcLY75Z6yk-t/view?usp=sharing">
+         <a href="">
           <button className="btn btn-danger">Download Brochure</button></a>
       </div>
       </div>
