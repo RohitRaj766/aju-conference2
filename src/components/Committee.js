@@ -98,15 +98,15 @@ export default function Committee() {
           </ul>
         </div>
       </div>
-<div className="container w-100">
+<div className="container-fluid">
       <div class="container-fluid row my-5">
-      <div class="col d-flex align-items-start my-3">
+      <div class="col d-flex align-items-start my-3" >
         <div class="icon-square bg-danger text-dark flex-shrink-0 me-3">
           <svg class="bi" width="1em" height="1em"></svg>
         </div>
-        <div>
+        <div >
           <h4 >CONFERENCE CHAIR</h4>
-          <p>Dr. Ashwini Kumar, Asst. Dean, School of Engineering & IT.<br/>
+          <p style={{height:''}}>Dr. Ashwini Kumar, Asst. Dean, School of Engineering & IT.<br/>
           Email - ashwini.kumar@ arkajainuniversity. ac.in <br/>Mob. – +91-8210353795</p>
           <a href="https://mail.google.com/" class="btn btn-danger " data-aos="fade-down">
           Email-Now
@@ -123,8 +123,8 @@ export default function Committee() {
         </div>
         <div>
           <h4 >CONVENOR</h4>
-          <p>Dr. Binod Kumar Choudhary, Associate Professor, Department of Electrical & Electronics Engineering.<br/>
-          Email- dr. binod@arkajainuniversity. ac.in<br/>Mob. – +91-9939974038</p>
+          <p style={{height:'180px'}}>Dr. Binod Kumar Choudhary, Associate Professor, Department of Electrical & Electronics Engineering.<br/>
+          Email- dr. binod@ arkajainuniversity. ac.in<br/>Mob. – +91-9939974038</p>
           <a href="https://mail.google.com/" class="btn btn-danger" data-aos="fade-down">
           Email-Now
           </a>
@@ -137,7 +137,7 @@ export default function Committee() {
 </div>
 <div>
 <h4>CO - CONVENOR</h4>
-  <p>Dr ChandraPrabha Sahu, Assistant Professor, Department of Electrical and Electronics Engineering.<br/>
+  <p style={{height:'180px'}}>Dr ChandraPrabha Sahu, Assistant Professor, Department of Electrical and Electronics Engineering.<br/>
   Email- dr.chandra@ arkajianuniversity. ac.in<br/>Mob. – +91-9128329236</p>
   <a href="https://mail.google.com/" class="btn btn-danger " data-aos="fade-down">
   Email-Now
@@ -150,9 +150,23 @@ export default function Committee() {
           <svg class="bi" width="1em" height="1em"></svg>
         </div>
         <div>
-          <h4 >CONVENOR</h4>
-          <p>Dr Jonaki, Mukherjee Assistant Professor Department of Electrical and Electronics Engineering.<br/>
+          <h4 >CO - CONVENOR</h4>
+          <p style={{height:'180px'}}>Dr Jonaki, Mukherjee Assistant Professor Department of Electrical and Electronics Engineering.<br/>
           Email- dr.jonaki@ arkajianuniversity. ac.in<br/>Mob. – +91–8902464892</p>
+          <a href="https://mail.google.com/" class="btn btn-danger" data-aos="fade-down">
+          Email-Now
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start my-3">
+        <div class="icon-square bg-danger text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"></svg>
+        </div>
+        <div>
+          <h4 >CO - CONVENOR</h4>
+          <p style={{height:'140px'}}>Dr Nupur Sharma, Assistant Professor, Department of Mechanical Engineering.<br/>
+          Email- dr.nupur@ arkajianuniversity.ac.in<br/>Mob. – +91-9649295182</p>
           <a href="https://mail.google.com/" class="btn btn-danger" data-aos="fade-down">
           Email-Now
           </a>

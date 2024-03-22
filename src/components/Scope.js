@@ -21,12 +21,12 @@ export default function Objective() {
           </h2>
           <p id="aboutajudetails" className="lead">
           The International Conference on “Recent and Technological Advances in Physics and
-Material Science(ICRTAPMS 2024) aims to bring together leading academic scientists,
-researchers and research scholars to exchange and share their experiences and research results
-on all aspects of Technical advancement of Physics and Material science . It also provides a
-premier interdisciplinary platform for researchers, practitioners and educators to present and
-discuss the most recent innovations, trends, and concerns as well as practical challenges
-encountered and solutions adopted in the fields of physics and Material Science.
+          Material Science(ICRTAPMS 2024) aims to bring together leading academic scientists,
+          researchers and research scholars to exchange and share their experiences and research results
+          on all aspects of Technical advancement of Physics and Material science . It also provides a
+          premier interdisciplinary platform for researchers, practitioners and educators to present and
+          discuss the most recent innovations, trends, and concerns as well as practical challenges
+          encountered and solutions adopted in the fields of physics and Material Science.
           </p>
         </div>
       </div>
@@ -41,20 +41,19 @@ encountered and solutions adopted in the fields of physics and Material Science.
           </h2>
           <p id="aboutajudetails" className="lead ">
           Prospective authors are kindly encouraged to contribute to and help shape the conference
-through submissions of their research abstracts, papers and e-posters. Also, high quality
-research contributions describing original and unpublished results of conceptual,
-
-constructive, empirical, experimental, or theoretical work in all areas of Science Engineering
-and Technology are cordially invited for presentation at the conference. The conference
-solicits contributions of abstracts, papers and e-posters that address themes and topics of the
-conference, including figures, tables and references of novel research materials. Authors from
-Material Science, Mechanical Engineering, Civil Engineering, Chemical Engineering,
-Manufacturing, Mining Engineering, Physics, Chemistry, Nano technologies, Biomaterial
-technologies, Textile Engineering, Polymer Science, etc. branches describing research,
-reviews and applications are invited to submit to research the papers
-The conference will involve presentations by experts on various areas of Physics and
-material science which include but not limited to following topical themes:
-The scope of the conference covers:
+          through submissions of their research abstracts, papers and e-posters. Also, high quality
+          research contributions describing original and unpublished results of conceptual,
+          constructive, empirical, experimental, or theoretical work in all areas of Science Engineering
+          and Technology are cordially invited for presentation at the conference. The conference
+          solicits contributions of abstracts, papers and e-posters that address themes and topics of the
+          conference, including figures, tables and references of novel research materials. Authors from
+          Material Science, Mechanical Engineering, Civil Engineering, Chemical Engineering,
+          Manufacturing, Mining Engineering, Physics, Chemistry, Nano technologies, Biomaterial
+          technologies, Textile Engineering, Polymer Science, etc. branches describing research,
+          reviews and applications are invited to submit to research the papers
+          The conference will involve presentations by experts on various areas of Physics and
+          material science which include but not limited to following topical themes:
+          The scope of the conference covers:
           </p>
         </div>
       </div>

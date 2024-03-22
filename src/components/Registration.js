@@ -12,14 +12,14 @@ export default function Registration() {
           IMPORTANT DATES !
         </h4>
         <p data-aos="fade-down">
-          Last Date for Submission of Full Paper: 2/04/2024 <br />
-          Notification of Acceptance of Full Paper : 12/4/2024
+          Last Date for Submission of Full Paper: 18/04/2024 <br />
+          Notification of Acceptance of Full Paper : 23/4/2024
           <br />
-          Last Date for Registration: 16/04/2023{" "}
+          Last Date for Registration: 25/04/2023{" "}
         </p>
         <hr />
       </div>
-
+      <p style={{textAlign:'center',fontWeight:'600', fontSize:'20px'}}>Please register to participate in the conference by using the link: <a href="https://forms.gle/e1jdEmoBfm5YXT5R9" style={{textDecoration:'none'}}>Click Here</a> </p>
       <h3 class=" container text-success" data-aos="fade-down">
         Registration Fee{" "}
       </h3>
@@ -35,23 +35,28 @@ export default function Registration() {
           <tbody>
             <tr>
               <td> Corporates / Industry Experts</td>
-              <td> Rs. 2000/-</td>
-              <td> USD - 28</td>
+              <td> Rs. 3000/-</td>
+              <td> USD - 36</td>
             </tr>
             <tr>
               <td> Faculty / Academicians </td>
-              <td> Rs. 1000/-</td>
-              <td> USD - 13</td>
+              <td> Rs. 1500/-</td>
+              <td> USD - 18</td>
             </tr>
             <tr>
               <td> Research Scholars</td>
-              <td> Rs. 500/-</td>
+              <td> Rs. 1000/-</td>
               <td> USD - 7</td>
             </tr>
             <tr>
               <td> Students/Co-Author</td>
               <td> Rs. 500/-</td>
               <td> USD - 7</td>
+            </tr>
+            <tr>
+              <td> Participants</td>
+              <td> Rs. 200/-</td>
+              <td> USD - 2.4</td>
             </tr>
           </tbody>
         </table>
@@ -68,17 +73,17 @@ export default function Registration() {
           <p>
             Online Transfer / Bank Transfer
             <br />
-            Bank Name : HDFC BANK <br />
-            Branch Name : CHOTA Gamharia <br />
+            Bank Name : :Bank of Maharastra <br />
+            Branch Name : Bistupur <br />
             Account Name : ARKA JAIN UNIVERSITY <br />
-            Account Number : 50100459210580 IFSC Code: HDFC0004801
+            Account Number : 60273286728 IFSC Code: MAHAB001241
           </p>
 
           <hr />
         </div>
       </div>
 
-      <div className="row container-fluid text-center my-5">
+      {/* <div className="row container-fluid text-center my-5">
         <div class="col ">
           <div class="card mb-4 rounded-3 shadow-sm payment_box border-dark">
             <div class="card-header py-3 text-white bg-success border-dark">
@@ -164,7 +169,7 @@ export default function Registration() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div class="alert alert-success" role="alert">
         <h4 class="alert-heading dark">PUBLICATION FEE</h4>

@@ -1,7 +1,9 @@
 import React from "react";
 import chiefpatron from "../images/chiefpatron.jpg";
 import patron from "../images/patron.jpg";
+import patron0 from "../images/patron0.jpg";
 import patron2 from "../images/patron2.jpg";
+import patron3 from "../images/patron3.jpg";
 import banner from "../images/banner.jpg";
 import Navbar from "./Navbar";
 // import Footer from "./Footer";
@@ -51,6 +53,27 @@ export default function Body() {
                 alt="Chief Patron"
               ></img>
               <h2 className="headname">Chief Patron</h2>
+              <p className="headdetail">
+              Dr. Easwaran Iyer, Vice Chancellor, ARKA JAIN University.{" "}
+              </p>
+              <p>
+                <a
+                  className="btn main_person_button"
+                  href="https://linkedin.com/in/dr-easwaran-s-iyer-47aa5010/"
+                  data-aos="fade-up"
+                >
+                  Know More »
+                </a>
+              </p>
+            </div>
+
+            <div className="container col-lg-4">
+              <img
+                src={patron0}
+                className="container mainpersonsimages"
+                alt="Chief Patron"
+              ></img>
+              <h2 className="headname">Patron</h2>
               <p className="headdetail">
               Prof. (Dr.) S.S. Razi, Chairman, Board of Management, ARKA JAIN University.{" "}
               </p>
@@ -104,6 +127,27 @@ export default function Body() {
                 <a
                   className="btn main_person_button"
                   href="https://linkedin.com/in/dr-angad-tiwary-92ba76206/"
+                  data-aos="fade-up"
+                >
+                  Know More »
+                </a>
+              </p>
+            </div>
+
+            <div className="container col-lg-4 amitsir" >
+              <img
+                src={patron3}
+                className="container mainpersonsimages"
+                alt="Patron"
+              ></img>
+              <h2 className="headname">Patron</h2>
+              <p className="headdetail">
+              Mrs. Richa Garg, Chief Finance Officer, ARKA JAIN University.{" "}
+              </p>
+              <p>
+                <a
+                  className="btn main_person_button"
+                  href="https://linkedin.com/in/richa-garg-58704618"
                   data-aos="fade-up"
                 >
                   Know More »
