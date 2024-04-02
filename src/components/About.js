@@ -60,7 +60,7 @@ export default function About() {
           students, academics and industry researchers.
           </p>
           <div className=" brochure">
-         <a href="">
+         <a href="https://drive.google.com/file/d/1dbfBGGHVVjYNjxX0H_oG_KqAEzg1yoc7/view?usp=drivesdk">
           <button className="btn btn-danger">Download Brochure</button></a>
       </div>
       </div>

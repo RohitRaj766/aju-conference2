@@ -27,11 +27,18 @@ export default function Contact() {
       phone: '+91-9128329236'
     },
     {
-      role: 'CONVENOR',
+      role: 'CO - CONVENOR',
       name: 'Dr Jonaki Mukherjee',
       position: 'Assistant Professor Department of Electrical and Electronics Engineering',
       email: 'dr.jonaki@arkajainuniversity.ac.in',
       phone: '+91–8902464892'
+    },
+    {
+      role: 'CO - CONVENOR',
+      name: 'Dr Nupur Sharma,',
+      position: 'Asst. Prof, Department of Mechanical Engineering',
+      email: 'dr.nupur@arkajianuniversity.ac.in',
+      phone: '+91-9649295182'
     }
   ];
 

@@ -10,6 +10,7 @@ export default function Committee() {
   const editorial_committee = jsondata["editorial_committee"];
   const organizing_committee = jsondata["organizing_committee"];
   const technical_support_committee = jsondata["technical_support_committee"];
+  const key_speaker = jsondata["key_speaker"];
   return (
     <>
     <Navbar/>
@@ -98,6 +99,31 @@ export default function Committee() {
           </ul>
         </div>
       </div>
+
+{/* key note speaker */}
+
+<div
+        id="aboutbox_electronicsandcommunication"
+        className="container-fluid row featurette"
+        
+      >
+        <div className="col-md-7 about"  data-aos="fade-down">
+          <h2 id="aboutajuheading" className="featurette-heading ">
+          KEY NOTE SPEAKERS
+           
+          </h2>
+          <ul id="aboutajudetails" className="lead ">
+
+          {key_speaker.map((field, index) => (
+            <li key={index}>{field}</li> // Use field itself or index as a key
+          ))}
+          </ul>
+        </div>
+      </div>
+
+{/* end */}
+
+
 <div className="container-fluid">
       <div class="container-fluid row my-5">
       <div class="col d-flex align-items-start my-3" >
